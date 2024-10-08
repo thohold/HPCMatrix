@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <math.h>
 #include <gsl/gsl_cblas.h>      // CBLAS in GSL (the GNU Scientific Library)
-//#include <gsl/gsl_spmatrix.h>
-//#include <gsl/gsl_vector.h>
+#include <gsl/gsl_spmatrix.h>
+#include <gsl/gsl_vector.h>
 #include "timer.h"
 #include "spmv.h"
 
